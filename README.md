@@ -1,7 +1,7 @@
 # Optimization API
 
 ## Steps to generate API code:
-- download swagger codegen: https://github.com/swagger-api/swagger-codegen (requires Java8)
+- Install swagger codegen: https://github.com/swagger-api/swagger-codegen (requires Java8)
 - run `swagger-codegen generate -i ./openapi/spec.yml -l python-flask -o ./src/api`
 
 
