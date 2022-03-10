@@ -19,6 +19,6 @@ Code in `src/api` is entirely auto generated. In this directory only changes in 
 
 ## Example request
 ```cURL
-curl --location --request GET 'http://127.0.0.1:5000/v2/store/inventory' \
+curl --location --request GET 'http://127.0.0.1:5000/v1/store/inventory' \
 --header 'api_key: special-key'
  ```   
